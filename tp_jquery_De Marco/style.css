@@ -1,0 +1,388 @@
+.container2{
+    width: 100%;
+    padding: 0px;
+    display: flex;
+}
+nav{
+    display: flex;
+    background-color: rgba(60, 141, 188,0.9);
+    padding: 15px;
+    justify-content: flex-end;
+    width: 100%;
+    z-index: 1;
+    position: absolute;
+}
+p{
+    margin: 0px;
+}
+.contenedor_alexander{
+    display: flex;
+    align-items: center;
+    width: 15%;
+    justify-content: space-evenly;
+}
+#foto_usuario{
+    width: 25px;
+    height: 25px;
+}
+#foto_usuario_2{
+    width: 45px;
+    height: 45px;
+}
+#roja{
+    background-color: #1F282D;
+    /* height: 1025px; */
+    height: 100vh;
+    width: 250px;
+    padding-top: 10px;
+    z-index: 0;
+}
+.datos{
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    margin-top: 55px;
+}
+.nombre_online{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 10px;
+    color: white;
+}
+.online_c{
+    width: 8px;
+    height: 8px;
+    background-color: green;
+    border-radius: 100%;
+}
+#online_c_main{
+    display: flex;
+    align-items: center;
+    width: 52%;
+    justify-content: space-between;
+}
+
+.pagina_principal{
+    display: flex;
+    height: 100vh; /* vh el alto de pantalla */
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 35px;
+}
+.datos_de_ingreso{
+    border: 1px solid black;
+    width: 100%;
+    height: 250px;
+    display: flex;
+}
+.solo_texto{
+    border: 1px solid black;
+    width: 100%;
+    height: 600px;
+}
+.formulario_general_1{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.formulario_general_2{
+    width: 50%;
+    display: flex;
+    justify-content:flex-start;
+    margin-top: 20px;
+}
+
+#observaciones{
+    height: 100px;
+    width: 100%;
+}
+#form{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+#form input{
+    justify-content:space-between;
+}
+
+#p{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+.propuesta{
+    display: flex;
+    margin-top: 10px;
+
+}
+.urgencia{
+    display: flex;
+    margin-top: 10px;
+}
+.propuestass{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-left: 50px;
+}
+@media screen and (max-width:768px){
+    /* cuando el ancho de la pantalla es <990 */
+    #roja{
+        display: none;
+    }
+}
+.barra_busqueda input{
+    margin-top: 20px;
+    margin-left: 4%;
+    padding: 10px 0px 10px 0px;
+    width: 90%;
+    border-radius: 5px;
+    background-color: #364950;
+    color: #9EA0A3;
+    /* text-align:start; */
+}
+.dashboard{
+    margin: 20px 0px 0px 10px;
+    color: white;
+    font-size: 20px;
+}
+#links li{
+    margin: 5% 0% 0% 0%;
+}
+#links a{
+    color: white;
+}
+.dashboard p{
+    padding: 0px 0px 10px 0px;
+}
+li{
+    text-decoration: none;
+}
+.span_propuestas{
+    width: 18%;
+}
+label{
+    margin: 0px;
+}
+
+.solo_texto{
+    display: flex;
+    flex-direction: column;
+}
+#fieldset_grande{
+    margin-top: 15px;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    border: 30px solid gray;
+}
+fieldset{
+    margin: 60px 15px 0px 20px;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    border: 2px solid gray;
+}
+.tab-content{
+   
+    flex-direction: column;
+    margin-top: 20px;
+}
+.tabpanel{
+    display: flex;
+    flex-direction: column;
+    margin: 70px 20px 0px 20px;
+    border: 2px solid black;
+    height: 100vh;
+    width: 200vh;
+}
+.columna_izq{
+    display: flex;
+    width: 250px;
+}
+.container_tabs{
+    display: flex;
+    margin: 70px 20px 0px 20px;
+    /* FALTA UN JUSTIFY PARA PONERLO EN EL MEDIO */
+}
+#tabs-1{
+    display: flex;
+    height: 100%;
+}
+#img_bruce_lee{
+    display: flex;
+    height: 300px;
+    /* margin-bottom: 1000px; */
+}
+#modal_bruno_diaz{
+    width: 100%;
+    display: flex;
+    z-index: 0;
+}
+
+#boton_transparente{
+    width: 40px;
+    z-index: 1;
+    position: relative;
+    margin-top: -2450%;
+
+}
+
+
+/* #verdobivh{
+    height: 50px;
+    color: #3EC627;
+} */
+
+
+
+#form_nombre_trabajo_etc{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 30px 30px 30px;
+    color: #A1A5A4;
+    margin-left: 50px;
+}
+
+#links{
+    color: white;
+    list-style:none;
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+}
+
+#botones2{
+    width: 49%;
+    height: 150%;
+    border: 0px solid white;
+    background-color: #3EC627;
+}
+#botones1{
+    width: 49%;
+    height: 150%;
+    background-color: #FEFEFE;
+    color: #B6B8B7;
+    border: 0px solid white;
+}
+.cancelar_guardar{
+    flex-direction: row;
+}
+
+.lorem {
+    display: flex;
+    flex-direction: column;
+}
+.contenedor_de_imagenes{
+    display: flex;
+    width: 100%;
+    height: 360px;
+    background-color: #EFEFEF;
+    justify-content: space-evenly;
+}
+
+.lorena{
+    display: flex;
+    background-color: white;
+    height: 150px;
+    margin: 0px;
+    width: 100%;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    flex-direction: column;
+}
+.lorena h3{
+    margin: 10px 0px 0px 10px;
+}
+.lorena h4{
+    margin: 10px 0px 0px 10px;
+}
+.lorena p{
+    margin: 10px 0px 0px 10px;
+}
+
+.contenedor_de_imagenes img{
+    width: 175px;
+}
+
+.campos{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 90%;
+    align-items: center;
+    background-color: white;
+    margin-top: 15px;
+    border-radius: 8px;
+}
+
+.primer_campo{
+
+}
+.segundo_campo{
+
+}
+.cuarto_campo{
+
+}
+#pose3{
+    width: 100%;
+}
+
+
+/* tengo que cambiar esta foto */
+#pose1{
+    width: 100%;
+}
+
+/* tengo que cambiar esta foto */
+#pose2{
+    width: 90%;
+}
+.btn-link{
+    color: red;
+    width: 100%;
+    border: 1px solid black;
+    text-align: start;
+}
+.mb-0{
+    margin: 0px;
+}
+
+.card-body{
+    display: flex;
+}
+.carta_1{
+    display: flex;
+    margin: 20px;
+}
+.carta_1_texto{
+    margin-left: 20px;
+}
+#menu3{
+    color: #535353 ;
+}
+#perfil{
+    height: 300px;
+}
+.form-control{
+    background-color: #ECECEC;
+    margin: 10px 0px 0px 0px;
+    border-radius: 3px;
+}
+.form-check{
+    margin: 15px 0px 15px 0px;
+}
+.form-check-label{
+    margin-right: 15px;
+}
+.calendario{
+    width: 100%;
+}
+
+.menu_flex{
+    display: flex;
+}
