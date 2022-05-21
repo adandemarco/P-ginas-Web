@@ -1,0 +1,39 @@
+.container{
+    margin: 0px;
+    width: 100%;
+}
+nav{
+    display: flex;
+    justify-content:flex-end;
+    background-color: #777777;
+    padding-right: 10px;
+    height: 50px;
+    align-items: center;
+}
+.barra_izquierda{
+    height: 1000px;
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: center;
+}
+.botones{
+    padding: 3px;
+}
+#pag_principal_boton{
+    background-color: #1177D1;
+    color: white;
+    width: 100%;
+}
+#calendario{
+    background-color: #F8F9FA;
+    color: #495057;
+    width: 100%;
+}
+.primera_parte{
+    height: 260px;
+}
+.pagina_principal{
+    display: flex;
+    padding: 10px 10px 10px 10px;
+    justify-content: space-between;
+}

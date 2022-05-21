@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="../boostrap/includes/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+
+
+</head>
+<style>
+    .container{
+        margin: 0px;
+        width: 100%;
+    }
+    #acceder{
+        margin: 0px;
+    }
+    nav{
+        display: flex;
+        justify-content:flex-end;
+        background-color: #777777;
+        padding-right: 10px;
+        height: 50px;
+        align-items: center;
+    }
+    .barra_izquierda{
+        height: 1000px;
+        background-color: #F2F2F2;
+        display: flex;
+        justify-content: center;
+    }
+    .botones{
+        padding: 20px;
+    }
+    #pag_principal_boton{
+        background-color: #1177D1;
+        color: white;
+        width: 100%;
+    }
+    #calendario{
+        background-color: #F8F9FA;
+        color: #495057;
+        width: 100%;
+    }
+    .primera_parte{
+        height: 260px;
+        width: 1000px;
+        justify-content: space-around;
+    }
+    .pagina_principal{
+        display: flex;
+        padding: 10px 10px 10px 10px;
+        justify-content: space-around;
+    }
+    .el_resto_de_la_pag{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .tres_fotos{
+        display: flex;
+        justify-content: center;
+    }
+    #espacio{
+        padding-bottom: 50px;
+    }
+    .primera_foto{
+        height: 360px;
+        width: 360px;
+        border: 1px solid gainsboro;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .cetec{
+        padding: 30px;
+    }
+    .segunda_foto{
+        height: 360px;
+        width: 360px;
+        border: 1px solid gainsboro;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .docente{
+        padding: 30px;
+    }
+    .tercera_foto{
+        height: 360px;
+        width: 360px;
+        border: 1px solid gainsboro;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .pantalla{
+        padding: 30px;
+    }
+    .el_resto_de_la_pag a{
+        background-color: #5689B4;
+    }
+</style>
+<body>
+    <div class="container">
+        <nav>
+            <p id="acceder">En este momento está usando el acceso para invitados (<a href="">Acceder</a>)</p>
+        </nav>
+
+        <div class="barra_izquierda col-lg-2 col-md-2 col-sm-2 col-xs-2">
+            <div class="botones">
+                <a class="btn btn-primary" href="#" role="button" id="pag_principal_boton">Página Principal</a>
+                <!-- <button id="pag_principal">Página Principal</button> -->
+                <!-- <button id="calendario">Calendario</button> -->
+                <a class="btn btn-primary" href="#" role="button" id="calendario">Calendario</a>
+                
+            </div>
+        </div>
+        
+        <div class="pagina_principal">
+            <div class="primera_parte">
+                    <a href="https://www.google.com/"><img src="./img/Campus_principal.png" alt="Página de Inicio"></a>
+                    <img src="./img/ubafiuba.png" alt="Página de Inicio" id="fiuba">
+            </div>
+        </div>
+
+        <div class="el_resto_de_la_pag">
+            <div id="biblioteca">
+                <img src="./img/biblioteca.jpg" alt="biblioteca">
+            </div>
+
+            <div id="espacio"></div>
+
+            <div class="tres_fotos">
+                <div class="primera_foto">
+                    <div id="tablet">
+                        <img src="./img/tablet.jpg" alt="tablet" id="tablet_foto">
+                    </div>
+                    <div class="cetec">
+                        <a class="btn btn-primary" href="#" role="button" id="cetec">CETEC - Centro de Tecnologías Educativas</a>
+                    </div>
+                </div>
+                
+                <div class="segunda_foto">
+                    <div id="anteojo">
+                        <img src="./img/anteojos.jpg" alt="anteojos" id="anteojos_foto">
+                    </div>
+                    <div class="docente">
+                        <a class="btn btn-primary" href="#" role="button" id="cetec">Capacitación docente</a>
+                    </div>
+                </div>
+
+                <div class="tercera_foto">
+                    <div id="pantalla">
+                        <img src="./img/pantalla.jpg" alt="pantalla" id="pantalla_foto">
+                    </div>
+                    <div class="pantalla">
+                        <a class="btn btn-primary" href="#" role="button" id="cetec">Reserva de la sala y recursos tecnológicos</a>
+                    </div>
+                </div>
+                 
+
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="../boostrap/includes/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+</body>
+</html>
