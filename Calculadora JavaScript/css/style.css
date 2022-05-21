@@ -1,0 +1,24 @@
+.body{
+    display: flex;
+
+}
+
+.calculadora{
+    align-items: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    background-color: aqua;
+}
+.botones{
+    display: flex;
+}
+.botones button{
+    margin: 10px;
+    padding: 0px 15px 0px 15px;
+}
+#num1, #num2{
+    width: 50px;
+    text-align: center;
+}
